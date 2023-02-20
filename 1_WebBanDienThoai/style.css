@@ -13,7 +13,7 @@
 #header{
     float: left;
     background-color: #5b5d5d;
-    width: 100%;
+    width: 1843px;
     padding: 10px 30px;
 }
 #header #logo{
@@ -32,7 +32,7 @@
     height: 25px;
     width: 250px;
     display:flex;
-    margin-left: 300px;
+    margin-left: 250px;
 }
 #search_box input{
     width: 230px;
@@ -100,17 +100,159 @@
 #menu .item_menu:hover{
     color: #5b5d5d;
     background-color: whitesmoke;
-
 }
-#wp_products{
-    padding-top: 116px;
-    padding-bottom: 78px;
-    padding-left: 134px;
-    padding-right: 134px;
+#banner #banner_img{
+    width: 1903px;
 }
-#wp_products h2{
+#body{
+    margin-left: 355px;
+    background-color: #fefefe;
+    padding-top: 15px;
+    width: 1200px;
+    float: left;
+}
+#left_side{
+    margin-bottom: 15px;
+    width: 204px;
+    float: left;
+    height: 376px;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+#left_side .icon{
+    height: 25px;
+    margin-right: 5px;
     text-align: center;
-    margin-bottom: 76px;
-    font-size: 32px;
-    color: #626a67;
+    width: 25px;
 }
+#left_side .title{
+    width: 150px;
+    font-size: 14px;
+}
+#left_side .icon_right{
+    float:right;
+    height: 20px;
+    width: 20px;
+}
+
+#left_side .item{
+    margin-top: 5px;
+    align-items: center;
+    display: flex;
+    min-height: 31.3px; 
+    padding: 0 10px;
+}
+#left_side .item .sub_menu{
+    display: none;
+    z-index: 1;
+    top: 0;
+    position: absolute;
+    width: 1050px;
+    background-color: #fff;
+    margin-top: 660px;
+    margin-left: 169px;
+    border-radius: 0 10px 10px 10px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);        
+}
+#left_side .item:hover .sub_menu{
+    display: block;
+}
+#left_side .item:hover{
+    color: whitesmoke;
+    background-color: #c5c9c9;
+    border-radius: 5px;
+}
+#left_side .item .sub_menu .list{
+    float: left;
+    padding: 10px;
+}
+#left_side .item .sub_menu .list .title{
+    font-weight: bold;
+}
+#right_side{  
+    margin-left: 25px;  
+    margin-bottom: 15px;
+    width: 920px;
+    float: right;
+}
+#right_side .product{
+    width: 228.8px;
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 5px;
+}
+#right_side .product .product_info_container{
+    float: left;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: none;
+    height: calc(95% - 20px);
+    margin: auto;    
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%); 
+}
+#right_side .product .product_info_container .product_info .product_img{
+    text-align: center;
+}
+#right_side .product .product_info_container .product_info .product_img img{
+    margin: 10px 0 0;
+    width: 160px;
+}
+#right_side .product .product_info_container .product_info .product_name{
+    margin-bottom: 5px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+#right_side .product .product_info_container .product_info .box_prices .box_prices2{
+    align-items: flex-end;
+    color: #444;
+    display: flex;
+    font-family: sans-serif;
+    line-height: 1.4;
+    padding-left: 10px;
+}
+#right_side .product .product_info_container .product_info .box_prices .box_prices2 .product_price_show{
+    color: #d70018;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 10px!important;  
+}
+#right_side .product .product_info_container .product_info .box_prices .box_prices2 .product_price_through{
+    color: #707070; 
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 10px 10px; 
+    text-decoration: line-through;
+
+}   
+#right_side .product .product_info_container .product_info .product_promotion .promotion{
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    font-size: 12px;
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 5px;
+    width: auto;
+}
+#right_side .product .product_info_container .product_info .button_wishlist{
+    float: right;
+    margin-top: 5px;
+}
+#right_side .product .product_info_container .product_info .button_wishlist .title_button{
+    float: left;
+    color: #777;
+    font-size: 12px;
+}
+#right_side .product .product_info_container .product_info .button_wishlist .heart{
+    height: 20px;
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}
+#footer{
+    background-image: linear-gradient(to left, #222, #000);
+    width: 1200px;
+    float: left;
+    height: 150px;
+}
+
