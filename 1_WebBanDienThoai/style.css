@@ -169,6 +169,11 @@
 #left_side .item .sub_menu .list .title{
     font-weight: bold;
 }
+#right_side .first_title{
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
 #right_side{  
     margin-left: 25px;  
     margin-bottom: 15px;
