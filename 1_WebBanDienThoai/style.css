@@ -169,10 +169,27 @@
 #left_side .item .sub_menu .list .title{
     font-weight: bold;
 }
+#left_side .item .sub_menu .list .item1{
+    margin-top: 5px;
+    align-items: center;
+    display: flex;
+    min-height: 31.3px; 
+    padding: 0 10px;
+    color: #777;
+    font-size: 14px;
+}
+#left_side .item .sub_menu .list .item1:hover{
+    color: whitesmoke;
+    background-color: #c5c9c9;
+    border-radius: 5px;
+
+}
 #right_side .first_title{
     font-weight: bold;
     margin-bottom: 20px;
     text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 20px;
 }
 #right_side{  
     margin-left: 25px;  
@@ -185,6 +202,9 @@
     margin-right: 10px;
     float: left;
     margin-bottom: 5px;
+}
+#laptop{
+    float: left;
 }
 #right_side .product .product_info_container{
     float: left;
@@ -247,6 +267,8 @@
     float: left;
     color: #777;
     font-size: 12px;
+    margin-top: 2px;
+    margin-right: 2px;
 }
 #right_side .product .product_info_container .product_info .button_wishlist .heart{
     height: 20px;
@@ -256,7 +278,7 @@
 }
 #footer{
     background-image: linear-gradient(to left, #222, #000);
-    width: 1200px;
+    width: 100%;
     float: left;
     height: 150px;
 }
